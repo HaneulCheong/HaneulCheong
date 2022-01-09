@@ -19,6 +19,7 @@ class Developer:
 
     def __repr__(self) -> str:
         return f"<Developer '{self.name}'>"
+
 ```
 </details>
 
@@ -34,11 +35,12 @@ if __name__ == "__main__":
             "C#": "Beginner",
             "C": "Barely Remembering Anything",
         },
-        favorite="Python",
+        favorite="Python"
     )
 
     for sentence in me.hello():
         print(sentence)
+
 ```
 
 <!---
