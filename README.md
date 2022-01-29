@@ -3,9 +3,11 @@
 
 ```python
 class Developer:
-    def __init__(self, name: str, languages: dict[str, str], favorite: str) -> None:
+    def __init__(
+        self, name: str, languages: dict[str, str], favorite: str
+    ) -> None:
         if favorite not in languages.keys():
-            raise ValueError
+            raise ValueError(favorite)
 
         self.name: str = name
         self.languages: dict[str, str] = languages
@@ -32,7 +34,8 @@ if __name__ == "__main__":
         name="Haneul Cheong",
         languages={
             "Python": "Intermediate",
-            "C#": "Beginner",
+            "C#": "Basic",
+            "Rust": "Beginner",
             "C": "Barely Remembering Anything",
         },
         favorite="Python"
@@ -44,6 +47,7 @@ if __name__ == "__main__":
 ```
 
 <!---
-HaneulCheong/HaneulCheong is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+HaneulCheong/HaneulCheong is a ✨ special ✨ repository
+because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
