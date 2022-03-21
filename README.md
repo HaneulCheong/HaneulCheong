@@ -35,7 +35,8 @@ if __name__ == "__main__":
         languages={
             "Python": "Intermediate",
             "C#": "Basic",
-            "Rust": "Beginner",
+            "Kotlin": "Beginner",
+            "Rust": "Gave up",
             "C": "Barely Remembering Anything",
         },
         favorite="Python"
